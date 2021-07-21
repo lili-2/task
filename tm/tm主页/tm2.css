@@ -4,8 +4,14 @@
     font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
     box-sizing: border-box;
 }
-body{
-    height: 100rem;
+@font-face {
+    font-family: 'iconfont';
+    src: url(../iconfont.eot),
+    url(../iconfont.eot?t=1597485958095) format(truetype)
+}
+
+.icon-font{
+    font-family: fontNameRegular;
 }
 a{
     text-decoration: none;
@@ -23,10 +29,11 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 2.55rem;
+    max-width: 105.5rem;
+    margin: 0 auto;
     color: #999;
     background: #f2f2f2;
     border-bottom: 1px solid #e5e5e5;
-    padding: 0 10rem;
     position: relative;
 }
 header>div{
@@ -151,7 +158,7 @@ header a:hover{
     background-color: #fff;
     position: absolute;
     top:2.4rem;
-    right: 9.99rem;
+    right: 0;
     z-index: 1001;
     display: none;
     border: .5px solid #c6c6c66e;
@@ -482,14 +489,6 @@ header a:hover{
 .middle .m_youhui>div>img:hover{
     opacity: 0.7;
 }
-@media screen and (max-width:65rem) {
-    /* #youhui_5{
-        visibility: hidden;
-    } */
-    #youhui_5{
-        display: none; 
-    }
-}
 #taobao_and_shoucang:hover #tras{
     animation: zhuan 1s;
     animation-fill-mode: forwards;
@@ -521,13 +520,13 @@ header a:hover{
     background-color: rgba(196, 191, 191, 0.1);
 }
 .last>div{
-    width: 100rem;
+    width: 105rem;
     display: flex; 
     background-color: rgba(196, 191, 191, 0.2);
 }
 .last>div>div{
     position: relative;
-    width: 122px;
+    width: 130px;
     height: 108px;
     margin-right: 1px;
     margin-bottom: 1px;

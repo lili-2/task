@@ -52,7 +52,7 @@ header>img{
     display: inline-block;
     height: 1.6em;
     margin: 0.2em;
-    border-bottom: 2px solid rgb(58, 58, 58);
+    cursor: pointer;
 }
 .login_middle{
     margin: 1.5em auto;
@@ -80,6 +80,13 @@ header>img{
 .login_middle span>svg{
     height: 2em;
     width: 2em;
+}
+.people .select{
+    appearance: none;
+    background-image: url("https://gw.alicdn.com/tfs/TB1.8ugw.T1gK0jSZFrXXcNCXXa-200-200.png");
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position:left 15px center;
 }
 .login_middle input{
     height: 100%;
